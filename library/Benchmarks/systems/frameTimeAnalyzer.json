@@ -1,0 +1,23 @@
+{
+	"version": 1,
+	"type": "system",
+	"dependencies": [
+		"Benchmarks.components.frametime",
+		"spell.OpenSans14px",
+		"spell.component.2d.graphics.textAppearance"
+	],
+	"input": [
+		{
+			"name": "frameTimeComponents",
+			"componentId": "Benchmarks.components.frametime"
+		}
+	],
+	"config": [
+		{
+			"name": "active",
+			"type": "boolean",
+			"default": true,
+			"doc": "if active is false the system will be skipped during processing"
+		}
+	]
+}

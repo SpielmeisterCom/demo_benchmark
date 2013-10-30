@@ -1,0 +1,34 @@
+<flex-config>
+  <compiler>
+    <source-path>
+      <path-element>/home/julian/Downloads/spelljs-desktop-0.8.29-linux-x64 (2)/spellFlash/src</path-element>
+      <path-element>/home/julian/Downloads/spelljs-desktop-0.8.29-linux-x64 (2)/spellFlash/lib/AS3WebSocket/src</path-element>
+      <path-element>/home/julian/Downloads/spelljs-desktop-0.8.29-linux-x64 (2)/spellFlash/lib/Coral/src</path-element>
+      <path-element>/home/julian/Downloads/spelljs-desktop-0.8.29-linux-x64 (2)/spellFlash/lib/Box2D/Source</path-element>
+      <path-element>/home/julian/workspace/spellProduct/modules/demo_projects/Benchmarks/build/tmp/web/flash/src</path-element>
+    </source-path>
+    <library-path>
+      <path-element>/home/julian/Downloads/spelljs-desktop-0.8.29-linux-x64 (2)/spellFlash/lib/AS3WebSocket/lib/as3corelib.swc</path-element>
+    </library-path>
+    <library-path>
+      <path-element>/home/julian/Downloads/spelljs-desktop-0.8.29-linux-x64 (2)/spellFlash/vendor/flex_sdk/frameworks/libs/core.swc</path-element>
+    </library-path>
+    <external-library-path>
+      <path-element>/home/julian/Downloads/spelljs-desktop-0.8.29-linux-x64 (2)/spellFlash/vendor/flex_sdk/frameworks/libs/player/11.1/playerglobal.swc</path-element>
+    </external-library-path>
+    <debug>true</debug>
+    <define>
+      <name>CONFIG::anonymizeModuleIds</name>
+      <value>true</value>
+    </define>
+  </compiler>
+  <file-specs>
+    <path-element>/home/julian/Downloads/spelljs-desktop-0.8.29-linux-x64 (2)/spellFlash/src/Spielmeister/SpellMain.as</path-element>
+  </file-specs>
+  <includes>
+    <symbol>Spielmeister.ComponentType.spell.component.visualObject</symbol>
+  </includes>
+  <warnings>false</warnings>
+  <static-link-runtime-shared-libraries>true</static-link-runtime-shared-libraries>
+  <output>/home/julian/workspace/spellProduct/modules/demo_projects/Benchmarks/build/debug/web/flash/spell.swf</output>
+</flex-config>

@@ -1,0 +1,46 @@
+{
+	"version": 1,
+	"type": "entityTemplate",
+	"dependencies": [
+		"Benchmarks.images.Wall",
+		"spell.component.2d.graphics.appearance",
+		"spell.component.2d.graphics.geometry.quad",
+		"spell.component.2d.graphics.shape.rectangle",
+		"spell.component.2d.graphics.textureMatrix",
+		"spell.component.2d.transform",
+		"spell.component.physics.body",
+		"spell.component.physics.fixture",
+		"spell.component.physics.shape.box",
+		"spell.component.visualObject"
+	],
+	"config": {
+		"spell.component.2d.transform": {
+			"translation": [
+				-10,
+				0
+			]
+		},
+		"spell.component.physics.body": {},
+		"spell.component.physics.fixture": {
+			"friction": 0,
+			"restitution": 1
+		},
+		"spell.component.physics.shape.box": {
+			"dimensions": [
+				1,
+				10
+			]
+		},
+		"spell.component.visualObject": {},
+		"spell.component.2d.graphics.shape.rectangle": {
+			"width": 1,
+			"height": 10
+		},
+		"spell.component.2d.graphics.textureMatrix": {},
+		"spell.component.2d.graphics.appearance": {
+			"assetId": "appearance:Benchmarks.images.Wall"
+		},
+		"spell.component.2d.graphics.geometry.quad": {}
+	},
+	"children": []
+}

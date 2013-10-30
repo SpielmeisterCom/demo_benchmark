@@ -1,0 +1,35 @@
+{
+	"version": 1,
+	"type": "entityTemplate",
+	"dependencies": [
+		"Benchmarks.images.Ball",
+		"spell.component.2d.graphics.appearance",
+		"spell.component.2d.graphics.geometry.quad",
+		"spell.component.2d.transform",
+		"spell.component.physics.body",
+		"spell.component.physics.fixture",
+		"spell.component.physics.shape.circle",
+		"spell.component.visualObject"
+	],
+	"config": {
+		"spell.component.2d.transform": {},
+		"spell.component.physics.shape.circle": {},
+		"spell.component.visualObject": {},
+		"spell.component.physics.body": {
+			"velocity": [
+				10,
+				10
+			],
+			"type": "dynamic"
+		},
+		"spell.component.physics.fixture": {
+			"restitution": 1,
+			"friction": 0
+		},
+		"spell.component.2d.graphics.appearance": {
+			"assetId": "appearance:Benchmarks.images.Ball"
+		},
+		"spell.component.2d.graphics.geometry.quad": {}
+	},
+	"children": []
+}

@@ -1,0 +1,27 @@
+{
+	"version": 1,
+	"config": {
+		"android": {
+			"signingKeyStore": "",
+			"signingKeyStorePass": "",
+			"signingKeyAlias": "",
+			"signingKeyPass": ""
+		},
+		"screenSize": [
+			440,
+			250
+		],
+		"loadingScene": "",
+		"screenMode": "",
+		"projectId": "Benchmarks",
+		"quadTreeSize": 1048576,
+		"defaultLanguage": "",
+		"supportedLanguages": []
+	},
+	"startScene": "Scene1",
+	"type": "project",
+	"apiVersion": "0.8.47",
+	"scenes": [
+		"Scene1"
+	]
+}
