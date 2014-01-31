@@ -9,7 +9,7 @@
 	<script type="text/javascript" src="spell.loader.js"></script>
 </head>
 
-<body>
+<body style="background-color: #3f3f3f">
 <div id="spell"></div>
 <script type="text/javascript">
 	( function() {
@@ -126,6 +126,7 @@
 		addEvent( window, 'message', handleMessageFromEditor )
 
 		var config = {
+			detectLanguage : false,
 			mode : isEmbedded ? 'development_embedded' : 'development_standalone',
 			platform : 'html5',
 			screenMode : 'fit',
