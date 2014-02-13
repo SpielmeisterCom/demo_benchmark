@@ -36,6 +36,86 @@ define(
 				this.stopWatch.start()
 				this.sum      = 0
 				this.numItems = 0
+
+                var entityConfigs = [
+                    {
+                        "name": "PerformanceIndicator",
+                        "config": {
+                            "spell.component.2d.graphics.textAppearance": {
+                                "text": "Avg. Frametime(ms):"
+                            },
+                            "spell.component.2d.transform": {
+                                "scale": [
+                                    0.1,
+                                    0.1
+                                ],
+                                "translation": [
+                                    -20,
+                                    8
+                                ]
+                            },
+                            "spell.component.visualObject": {}
+                        },
+                        "children": [
+                            {
+                                "name": "frameTime",
+                                "config": {
+                                    "spell.component.2d.transform": {
+                                        "translation": [
+                                            215,
+                                            0
+                                        ]
+                                    },
+                                    "spell.component.visualObject": {},
+                                    "Benchmarks.components.frametime": {},
+                                    "spell.component.2d.graphics.textAppearance": {
+                                        "text": "0",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "PerformanceIndicator_fps",
+                        "config": {
+                            "spell.component.2d.graphics.textAppearance": {
+                                "text": "Frames per second:"
+                            },
+                            "spell.component.2d.transform": {
+                                "scale": [
+                                    0.1,
+                                    0.1
+                                ],
+                                "translation": [
+                                    -20,
+                                    6
+                                ]
+                            },
+                            "spell.component.visualObject": {}
+                        },
+                        "children": [
+                            {
+                                "name": "fps",
+                                "config": {
+                                    "spell.component.2d.transform": {
+                                        "translation": [
+                                            215,
+                                            0
+                                        ]
+                                    },
+                                    "spell.component.visualObject": {},
+                                    "spell.component.2d.graphics.textAppearance": {
+                                        "text": "0",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+
+                spell.entityManager.createEntities( entityConfigs )
 			},
 		
 			/**
