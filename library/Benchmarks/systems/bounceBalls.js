@@ -16,7 +16,7 @@ define(
 	) {
 		'use strict'
 		
-		var ballsAmount = 60
+		var ballsAmount = 200
 		
 		
 		/**
@@ -38,9 +38,9 @@ define(
 		 	 * @param {Object} [spell] The spell object.
 			 */
 			init: function( spell ) {
-				var randomNumber  = this.randomNumber,
-					entityManager = spell.entityManager,
-					world         = spell.box2dWorlds.main				
+				var randomNumber   = this.randomNumber,
+					entityManager  = spell.entityManager,
+					physicsManager = spell.physicsManager
 
 				for( var i = 0; i < ballsAmount; i++ ) {
 
@@ -53,7 +53,7 @@ define(
 						}						
 					})		
 					
-					world.setVelocity( id, [ randomNumber(), randomNumber() ] )
+					physicsManager.setVelocity( id, [ randomNumber(), randomNumber() ] )
 				}
 			},
 		

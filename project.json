@@ -11,6 +11,10 @@
 			440,
 			250
 		],
+		"web": {
+			"html5": true,
+			"flash": true
+		},
 		"loadingScene": "",
 		"screenMode": "",
 		"projectId": "Benchmarks",
@@ -20,7 +24,7 @@
 	},
 	"startScene": "Scene1",
 	"type": "project",
-	"apiVersion": "0.8.47",
+	"apiVersion": "0.9.9",
 	"scenes": [
 		"Scene1"
 	]
