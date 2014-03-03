@@ -6,7 +6,7 @@
 			{
 				"id": "spell.system.physics",
 				"config": {
-					"active": false,
+					"active": true,
 					"gravity": [
 						0,
 						0
@@ -169,8 +169,8 @@
 			"config": {
 				"spell.component.2d.graphics.camera": {
 					"active": true,
-					"width": 4,
-					"height": 13
+					"width": 40,
+					"height": 20
 				}
 			}
 		},
