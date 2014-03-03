@@ -22,8 +22,8 @@
 		},
 		"spell.component.physics.body": {},
 		"spell.component.physics.fixture": {
-			"friction": 0,
-			"restitution": 1
+			"dynamicFriction": 0,
+			"elasticity": 1
 		},
 		"spell.component.physics.shape.box": {
 			"dimensions": [

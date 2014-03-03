@@ -13,7 +13,9 @@
 	],
 	"config": {
 		"spell.component.2d.transform": {},
-		"spell.component.physics.shape.circle": {},
+		"spell.component.physics.shape.circle": {
+			"radius": 0.1
+		},
 		"spell.component.visualObject": {},
 		"spell.component.physics.body": {
 			"velocity": [
@@ -23,13 +25,18 @@
 			"type": "dynamic"
 		},
 		"spell.component.physics.fixture": {
-			"restitution": 1,
-			"friction": 0
+			"elasticity": 1,
+			"dynamicFriction": 0
 		},
 		"spell.component.2d.graphics.appearance": {
 			"assetId": "appearance:Benchmarks.images.Ball"
 		},
-		"spell.component.2d.graphics.geometry.quad": {}
+		"spell.component.2d.graphics.geometry.quad": {
+			"dimensions": [
+				0.2,
+				0.2
+			]
+		}
 	},
 	"children": []
 }
