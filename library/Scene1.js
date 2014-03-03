@@ -26,8 +26,8 @@ define(
         return {
             init : function( spell, sceneConfig ) {
 
-                var entityManager = spell.entityManager,
-                    world         = spell.physicsWorlds.main
+                var entityManager  = spell.entityManager,
+					physicsManager = spell.physicsManager
 
                 for( var i = 0; i < ballsAmount; i++ ) {
 
@@ -40,7 +40,7 @@ define(
                         }
                     })
 
-                    world.setVelocity( id, [ randomNumber(), randomNumber() ] )
+					physicsManager.setVelocity( id, [ randomNumber(), randomNumber() ] )
                 }
             },
             destroy : function( spell, sceneConfig ) {}

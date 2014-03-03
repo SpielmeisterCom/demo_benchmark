@@ -29,7 +29,8 @@
 			}
 		},
 		"web": {
-			"html5": true
+			"html5": true,
+			"flash": false
 		},
 		"winstore": {
 			"packageDisplayName": "",
@@ -96,7 +97,7 @@
 	},
 	"startScene": "Scene1",
 	"type": "project",
-	"apiVersion": "0.9.6",
+	"apiVersion": "0.9.15",
 	"scenes": [
 		"Scene1"
 	]

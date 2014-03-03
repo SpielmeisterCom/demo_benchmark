@@ -6,7 +6,7 @@
 			{
 				"id": "spell.system.physics",
 				"config": {
-					"active": true,
+					"active": false,
 					"gravity": [
 						0,
 						0
@@ -20,18 +20,6 @@
 					"showSensorShapes": false,
 					"showBodyDetail": false,
 					"showShapeDetail": false
-				}
-			},
-			{
-				"id": "Benchmarks.systems.box2dPhysics",
-				"config": {
-					"active": false,
-					"debug": false,
-					"gravity": [
-						0,
-						0
-					],
-					"scale": 1
 				}
 			}
 		],
@@ -63,7 +51,6 @@
 		"Benchmarks.entities.Wall",
 		"Benchmarks.images.Ball",
 		"Benchmarks.images.Wall",
-		"Benchmarks.systems.box2dPhysics",
 		"Benchmarks.systems.frameTimeAnalyzer",
 		"spell.OpenSans14px",
 		"spell.component.2d.graphics.animatedAppearance",
@@ -182,8 +169,8 @@
 			"config": {
 				"spell.component.2d.graphics.camera": {
 					"active": true,
-					"width": 44,
-					"height": 25
+					"width": 4,
+					"height": 13
 				}
 			}
 		},
