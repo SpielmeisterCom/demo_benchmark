@@ -4,6 +4,24 @@
 	"systems": {
 		"update": [
 			{
+				"id": "spell.system.clearKeyInput",
+				"config": {
+					"active": true
+				}
+			},
+			{
+				"id": "spell.system.processInputCommands",
+				"config": {
+					"active": true
+				}
+			},
+			{
+				"id": "spell.system.processPointerInput",
+				"config": {
+					"active": true
+				}
+			},
+			{
 				"id": "spell.system.physics",
 				"config": {
 					"active": true,
@@ -12,6 +30,8 @@
 						0
 					],
 					"scale": 1,
+					"velocityIterations": 8,
+					"positionIterations": 8,
 					"showConstraints": false,
 					"showContacts": false,
 					"showContactImpulses": false,
@@ -28,7 +48,12 @@
 				"id": "spell.system.render",
 				"config": {
 					"active": true,
-					"debug": false
+					"debug": false,
+					"clearColor": [
+						0,
+						0,
+						0
+					]
 				}
 			},
 			{
@@ -78,6 +103,7 @@
 		"spell.system.keyFrameAnimation",
 		"spell.system.physics",
 		"spell.system.processInputCommands",
+		"spell.system.processPointerInput",
 		"spell.system.render"
 	],
 	"entities": [
