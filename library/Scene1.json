@@ -25,12 +25,6 @@
 		],
 		"render": [
 			{
-				"id": "spell.system.visibility",
-				"config": {
-					"active": true
-				}
-			},
-			{
 				"id": "spell.system.render",
 				"config": {
 					"active": true,
@@ -84,8 +78,7 @@
 		"spell.system.keyFrameAnimation",
 		"spell.system.physics",
 		"spell.system.processInputCommands",
-		"spell.system.render",
-		"spell.system.visibility"
+		"spell.system.render"
 	],
 	"entities": [
 		{
